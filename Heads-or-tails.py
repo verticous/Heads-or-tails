@@ -15,5 +15,5 @@ while True:
         print("Tails")
 
     Inputchoice = input("Play again? (y/n): ")
-    if Inputchoice.lower() != "y":
+    if Inputchoice.lower() not in {'yes','ye','y','yy'}:
         break
