@@ -3,12 +3,8 @@ import random
 print("Heads Or Tails")
 print("Created By Verticous")
 
-def flip():
-    result = random.randint(0, 1)
-    return result
-
 while True:
-    flip_result = flip()
+    flip_result = random.randint(0, 1)
     if flip_result == 0:
         print("Heads")
     else:
